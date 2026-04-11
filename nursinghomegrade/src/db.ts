@@ -7,7 +7,8 @@ export async function getFacilityById(env: Env, cmsId: string): Promise<Facility
 
 export async function getFacilityBySlugId(env: Env, slugId: string): Promise<Facility | null> {
   // slugId is "cms_id-slug", e.g. "015001-sunrise-care-center"
-  const cmsId = slugId.split("-")[0] ?? "";
+  const cmsId = slugId.split("-")[0];
+  if (!cmsId) return null;
   return getFacilityById(env, cmsId);
 }
 
