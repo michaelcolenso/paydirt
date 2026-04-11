@@ -3,3 +3,4 @@ dist/
 .wrangler/
 *.local
 scripts/seed.sql
+public/sitemap.xml

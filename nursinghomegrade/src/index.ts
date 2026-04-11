@@ -11,6 +11,15 @@ export default {
     if (path === "/") return handleHome(request, env);
     if (path === "/about") return handleAbout(request, env);
     if (path === "/search") return handleSearch(request, env);
+    if (path === "/sitemap.xml") {
+      const sitemap = await env.CACHE.get("sitemap");
+      if (sitemap)
+        return new Response(sitemap, {
+          headers: { "Content-Type": "application/xml" },
+        });
+      return new Response("Sitemap not found", { status: 404 });
+    }
+
     if (path === "/robots.txt")
       return new Response("User-agent: *\nAllow: /\nSitemap: https://nursinghomegrade.com/sitemap.xml\n", {
         headers: { "Content-Type": "text/plain" },
