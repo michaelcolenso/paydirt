@@ -37,7 +37,7 @@ export function facilityPage(f: Facility): string {
       <tr style="border-bottom:1px solid #e5e7eb;">
         <td style="padding:0.6rem 0;">RN Staffing Hours / Resident / Day</td>
         <td style="padding:0.6rem 0;font-weight:600;color:${meetsMinimum ? "#16a34a" : "#dc2626"}">
-          ${rnDisplay}
+          ${escHtml(rnDisplay)}
         </td>
       </tr>
       <tr style="border-bottom:1px solid #e5e7eb;">

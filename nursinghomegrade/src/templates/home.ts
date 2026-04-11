@@ -49,7 +49,7 @@ export function searchResultsPage(
 ): string {
   if (facilities.length === 0) {
     const body = `<h1>No facilities found for ZIP ${escHtml(zip)}</h1><p><a href="/">Try another ZIP</a></p>`;
-    return layout(`Nursing Homes Near ${escHtml(zip)}`, "", body);
+    return layout(`Nursing Homes Near ${zip}`, "", body);
   }
   const items = facilities
     .map(
@@ -68,8 +68,8 @@ export function searchResultsPage(
     .join("");
   const body = `<h1 style="margin-bottom:1.5rem;">Nursing homes near ${escHtml(zip)}</h1>${items}`;
   return layout(
-    `Nursing Homes Near ${escHtml(zip)} — NursingHomeGrade`,
-    `Nursing home quality grades for facilities near ZIP code ${escHtml(zip)}.`,
+    `Nursing Homes Near ${zip} — NursingHomeGrade`,
+    `Nursing home quality grades for facilities near ZIP code ${zip}.`,
     body,
   );
 }
