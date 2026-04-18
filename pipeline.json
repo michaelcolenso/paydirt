@@ -1,0 +1,448 @@
+{
+  "run_date": "2026-04-18",
+  "phase0_inputs": {
+    "watchlist_leads_file": "watchlist_leads.json",
+    "watchlist_report_file": "watchlist_report.md"
+  },
+  "killed_in_phase2": [],
+  "opportunities": [
+    {
+      "name": "DeviceIncidentScout",
+      "input": {
+        "name": "DeviceIncidentScout",
+        "data_source": {
+          "name": "openFDA Device Adverse Events API",
+          "url": "https://api.fda.gov/device/event.json",
+          "sample_url": "https://api.fda.gov/device/event.json?limit=1&sort=date_received:desc",
+          "format": "API",
+          "update_frequency": "daily",
+          "entity_count": 2900000,
+          "licensing": "Public U.S. government data (openFDA terms)"
+        },
+        "query_pattern": "[device name] adverse event report",
+        "example_queries": [
+          "philips cpap adverse event reports",
+          "insulin pump malfunction reports",
+          "hip implant adverse events",
+          "medical device MAUDE database search"
+        ],
+        "intent_type": "Informational with high-risk purchase/medical decision support intent",
+        "monetization_model": "display ads + affiliate (home health/safety products) + premium alerts",
+        "primary_vertical": "consumer safety",
+        "build_notes": "Cloudflare Worker ETL of openFDA into D1, pSEO pages by brand/model/problem code"
+      },
+      "phase2": {
+        "data_status": 200,
+        "data_ok": true,
+        "data_sample": "{\n  \"meta\": {\n    \"disclaimer\": \"Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.\",\n    \"terms\": \"https://open.fda.gov/terms/\",\n    \"license\": \"https://open.fda.gov/license/\",\n    \"las",
+        "serp_checks": [
+          {
+            "query": "philips cpap adverse event reports",
+            "results": [
+              {
+                "title": "philips.comhttps://www.usa.philips.com",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=733bdafd1bc4cc38d06b6490e5ef72a921ea8532d0371699b3258ae9dd2c4b74JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cudXNhLnBoaWxpcHMuY29tLw&amp;ntb=1"
+              },
+              {
+                "title": "wikipedia.orghttps://en.wikipedia.org \u203a wiki \u203a Philips",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=ff731fe954c31ce35a8f7ea69f76c9030a0e7bd55489e27057abce20a000748aJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvUGhpbGlwcw&amp;ntb=1"
+              },
+              {
+                "title": "home-appliances.philipshttps://us.home-appliances.philips",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=b01b2028361e74dce57cb911c43ff34f5df6fa0de2d177940ff74471b8d9ff9aJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly91cy5ob21lLWFwcGxpYW5jZXMucGhpbGlwcy8&amp;ntb=1"
+              },
+              {
+                "title": "philips.comhttps://www.philips.com \u203a global",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=3813a4ae5d77d29c5bd1caad0c6f1a24013c842784bbc548717a62649b20366fJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cucGhpbGlwcy5jb20vZ2xvYmFs&amp;ntb=1"
+              },
+              {
+                "title": "phillips66.comhttps://www.phillips66.com",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=9411ab648f2489744e33c7fdeb0fa79091897ede3472719b8fc3b024957db497JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cucGhpbGxpcHM2Ni5jb20v&amp;ntb=1"
+              }
+            ],
+            "paa_like": true,
+            "raw_len": 115403
+          },
+          {
+            "query": "insulin pump malfunction reports",
+            "results": [
+              {
+                "title": "clevelandclinic.orghttps://my.clevelandclinic.org \u203a health \u203a body",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=9f2b4fc3592e7699f86325851a4f8ea6b001c7df4475a6c73a9b76c8772f131dJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9teS5jbGV2ZWxhbmRjbGluaWMub3JnL2hlYWx0aC9ib2R5LzIyNjAxLWluc3VsaW4&amp;ntb=1"
+              },
+              {
+                "title": "wikipedia.orghttps://en.wikipedia.org \u203a wiki \u203a Insulin",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=44d90e1a5b8a1591164a0757181ce6391e5f86cfd87a7d630fec9e70e8bb6915JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSW5zdWxpbg&amp;ntb=1"
+              },
+              {
+                "title": "drugs.comhttps://www.drugs.com \u203a drug-class \u203a insulin.html",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=746bd657952526ea0de598148975a0807ca8376f079e7ae5930deac054de12e9JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cuZHJ1Z3MuY29tL2RydWctY2xhc3MvaW5zdWxpbi5odG1s&amp;ntb=1"
+              },
+              {
+                "title": "diabetes.orghttps://diabetes.org \u203a health-wellness \u203a medication \u203a insulin-basics",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=8b3d2fc10b5bca36877ca7ccaedc3898d555021b361f8b4ee898e44120945672JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9kaWFiZXRlcy5vcmcvaGVhbHRoLXdlbGxuZXNzL21lZGljYXRpb24vaW5zdWxpbi1iYXNpY3M&amp;ntb=1"
+              },
+              {
+                "title": "nih.govhttps://pmc.ncbi.nlm.nih.gov \u203a articles",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=9cc4dee98e9d0402357152c20a94aa8bb8524947ff79a07826c912c663b4bca7JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9wbWMubmNiaS5ubG0ubmloLmdvdi9hcnRpY2xlcy9QTUM4MjMyNjM5Lw&amp;ntb=1"
+              }
+            ],
+            "paa_like": true,
+            "raw_len": 116120
+          },
+          {
+            "query": "hip implant adverse events",
+            "results": [
+              {
+                "title": "orthonebraska.comhttps://orthonebraska.com \u203a specialty \u203a hip",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=4c7d539968a58d4d5f5bbe1998dd079a3d8cbc909e4348418a3cfd0b36a7b6bfJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9vcnRob25lYnJhc2thLmNvbS9zcGVjaWFsdHkvaGlwLw&amp;ntb=1"
+              },
+              {
+                "title": "webmd.comhttps://www.webmd.com \u203a pain-management \u203a hip-pain-causes-and-treatment",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=727fa96e8a1b5a394e060dd74f452d22957112720eefc5517a00b074149b552eJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cud2VibWQuY29tL3BhaW4tbWFuYWdlbWVudC9oaXAtcGFpbi1jYXVzZXMtYW5kLXRyZWF0bWVudA&amp;ntb=1"
+              },
+              {
+                "title": "clevelandclinic.orghttps://my.clevelandclinic.org \u203a health \u203a body",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=6d88dfbda6f0f7f209e46eb5b8965e81029339815967783672d84d7c34039e24JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9teS5jbGV2ZWxhbmRjbGluaWMub3JnL2hlYWx0aC9ib2R5LzI0Njc1LWhpcC1qb2ludA&amp;ntb=1"
+              },
+              {
+                "title": "humanbodypartsanatomy.comhttps://humanbodypartsanatomy.com \u203a hip-bones-anatomy-parts-names...",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=5289fb90e545635586a4e697de93baebbdfc5154a7984cdc8b6f01bbc12915fcJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9odW1hbmJvZHlwYXJ0c2FuYXRvbXkuY29tL2hpcC1ib25lcy1hbmF0b215LXBhcnRzLW5hbWVzLWZ1bmN0aW9ucy1kaWFncmFtLw&amp;ntb=1"
+              },
+              {
+                "title": "arthritis.orghttps://www.arthritis.org \u203a ... \u203a where-it-hurts \u203a anatomy-of-the-hip",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=e73240d100b5def1fbb4c18e43a92f06015e9fc4616350f5ce7ca8e5fc93fa38JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cuYXJ0aHJpdGlzLm9yZy9oZWFsdGgtd2VsbG5lc3MvYWJvdXQtYXJ0aHJpdGlzL3doZXJlLWl0LWh1cnRzL2FuYXRvbXktb2YtdGhlLWhpcA&amp;ntb=1"
+              }
+            ],
+            "paa_like": true,
+            "raw_len": 116233
+          }
+        ],
+        "search_positive": 3,
+        "serp_beatable_signals": 0,
+        "pass": true
+      },
+      "phase3": {
+        "pain_signal_hits": 0,
+        "pain_examples": [],
+        "competition_gap": 9,
+        "build_feasibility": 8,
+        "defensibility": 7,
+        "monetization_clarity": 8,
+        "revenue_scenarios": {
+          "bear": 60.0,
+          "base": 700.0,
+          "bull": 4500.0,
+          "assumed_rpm": {
+            "bear": 12,
+            "base": 28,
+            "bull": 45
+          }
+        },
+        "months_to_1k_base": 1.4
+      },
+      "score": {
+        "data_quality": 8,
+        "search_demand": 7,
+        "competition_gap": 9,
+        "monetization_clarity": 8,
+        "build_feasibility": 8,
+        "defensibility": 7,
+        "composite": 7.83
+      },
+      "verdict": "BUILD"
+    },
+    {
+      "name": "OSHAInspectionLookup",
+      "input": {
+        "name": "OSHAInspectionLookup",
+        "data_source": {
+          "name": "OSHA Enforcement Data Catalog",
+          "url": "https://enforcedata.dol.gov/views/data_catalogs.php",
+          "sample_url": "https://enforcedata.dol.gov/views/data_catalogs.php",
+          "format": "CSV/Bulk",
+          "update_frequency": "monthly",
+          "entity_count": 120000,
+          "licensing": "Public U.S. government data"
+        },
+        "query_pattern": "[company] OSHA violations",
+        "example_queries": [
+          "amazon osha violations",
+          "tyson foods osha fines",
+          "[company] osha inspection history",
+          "osha establishment search"
+        ],
+        "intent_type": "Informational / compliance",
+        "monetization_model": "lead gen (workplace safety consultants, OSHA training) + ads",
+        "primary_vertical": "labor/compliance",
+        "build_notes": "Ingest inspection and citation CSVs, normalize employer names, pages per employer and facility"
+      },
+      "phase2": {
+        "data_status": 200,
+        "data_ok": true,
+        "data_sample": "<!doctype html><html lang=\"en\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001",
+        "serp_checks": [
+          {
+            "query": "amazon osha violations",
+            "results": [
+              {
+                "title": "reddit.comhttps://www.reddit.com \u203a amazonprime \u203a comments \u203a scary_mail_from_ofmam\u2026",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=cd22e81fc00e60ae16ad10ca59a5bcebf0695057fc104017fc5efa5295b4f83aJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL2FtYXpvbnByaW1lL2NvbW1lbnRzLzEyOG90Y2Ivc2NhcnlfbWFpbF9mcm9tX29mbWFtYXpvbmNvbS8&amp;ntb=1"
+              },
+              {
+                "title": "reddit.comhttps://www.reddit.com \u203a amazon_layoffs",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=7b0219a0c4408f6e812ebce26bad608df0c080fea23078ce5e6a1b7ec62fed80JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS90L2FtYXpvbl9sYXlvZmZzLw&amp;ntb=1"
+              },
+              {
+                "title": "reddit.comhttps://www.reddit.com \u203a ... \u203a comments \u203a anyone_have_any_experience_with\u2026",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=74b0580e39d9ada32b8bf08be2f1f410edc0928b4f6461059a1d635616a53afcJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL0J1eUl0Rm9yTGlmZS9jb21tZW50cy8xOTJyZDRmL2FueW9uZV9oYXZlX2FueV9leHBlcmllbmNlX3dpdGhfYW1hem9uX3VzZWQv&amp;ntb=1"
+              },
+              {
+                "title": "reddit.comhttps://www.reddit.com \u203a amazonprime \u203a comments \u203a why_is_amazon_so_bad\u2026",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=f3030e3bcfffeb403bec53bbdfbcc23e4993c0ea9cde88c4698a6697799efa56JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL2FtYXpvbnByaW1lL2NvbW1lbnRzLzFhcXoza2cvd2h5X2lzX2FtYXpvbl9zb19iYWRfbm93X3doYXRfaGFwcGVuZWQv&amp;ntb=1"
+              },
+              {
+                "title": "reddit.comhttps://www.reddit.com \u203a AmazonLunaHub \u203a wiki \u203a index",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=6b896195a1beb40dba201d5a723e0afaf9ed209caf901df6740b6e203341bbdbJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL0FtYXpvbkx1bmFIdWIvd2lraS9pbmRleC8&amp;ntb=1"
+              }
+            ],
+            "paa_like": true,
+            "raw_len": 115924
+          },
+          {
+            "query": "tyson foods osha fines",
+            "results": [
+              {
+                "title": "tyson.comhttps://www.tyson.com",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=0edef08d16f6a469b0c0b537c3270de0944547d0407fec8b62804d4937bd43eaJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cudHlzb24uY29tLw&amp;ntb=1"
+              },
+              {
+                "title": "tyson.comhttps://ir.tyson.com \u203a about-tyson \u203a about-us",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=15a89ea66a07b4a6576dbeefd7ec0cd3dc698e4efc9acd7ceb3c774ba7443733JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9pci50eXNvbi5jb20vYWJvdXQtdHlzb24vYWJvdXQtdXMv&amp;ntb=1"
+              },
+              {
+                "title": "tyson.comhttps://www.tyson.com \u203a our-story",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=6c6262126c07a0bfb12caa9428ed4e7052051e00c9f19258d5c9d33adf4d009bJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cudHlzb24uY29tL291ci1zdG9yeS8&amp;ntb=1"
+              },
+              {
+                "title": "tyson.comhttps://ir.tyson.com \u203a about-tyson \u203a facts",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=644c953f008a2343cd63752ef12bae0b06324f19a5f5d6134d9ef4b01a1be4c4JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9pci50eXNvbi5jb20vYWJvdXQtdHlzb24vZmFjdHMv&amp;ntb=1"
+              },
+              {
+                "title": "tyson.comhttps://www.tyson.com \u203a products",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=ff6e6273211463178c125bb8c66d41265c531be027b2df86590970c387ed1100JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cudHlzb24uY29tL3Byb2R1Y3RzLw&amp;ntb=1"
+              }
+            ],
+            "paa_like": true,
+            "raw_len": 113318
+          },
+          {
+            "query": "[company] osha inspection history",
+            "results": [
+              {
+                "title": "wikipedia.orghttps://en.wikipedia.org \u203a wiki \u203a List_of_companies_in...",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=67a939fb3bc0c00430943230f65d001aaf79a3d4a1fd72e5c6129777f4272c2aJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTGlzdF9vZl9jb21wYW5pZXNfaW5fdGhlX0NoaWNhZ29fbWV0cm9wb2xpdGFuX2FyZWE&amp;ntb=1"
+              },
+              {
+                "title": "ilsos.govhttps://apps.ilsos.gov \u203a businessentitysearch",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=8abfce7c1f5cb589f7533a70c1473e8c21ea46e599004492d8f9f702560fe29bJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9hcHBzLmlsc29zLmdvdi9idXNpbmVzc2VudGl0eXNlYXJjaC8&amp;ntb=1"
+              },
+              {
+                "title": "illinois.govhttps://www.illinois.gov \u203a services \u203a service.llc-name.html",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=6dcac0182813b2fa238222f3b5a719cadea264c6fe6c364e2e0ac75e968c8e0bJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cuaWxsaW5vaXMuZ292L3NlcnZpY2VzL3NlcnZpY2UubGxjLW5hbWUuaHRtbA&amp;ntb=1"
+              },
+              {
+                "title": "builtinchicago.orghttps://www.builtinchicago.org \u203a articles \u203a largest-companies-in-chicago-tech",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=3c112a88b88642062e39337da4cf2b3b092cc05d1aaa52f2e5c4d68846d6634cJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cuYnVpbHRpbmNoaWNhZ28ub3JnL2FydGljbGVzL2xhcmdlc3QtY29tcGFuaWVzLWluLWNoaWNhZ28tdGVjaA&amp;ntb=1"
+              },
+              {
+                "title": "f6s.comhttps://www.f6s.com \u203a companies \u203a united-states \u203a illinois \u203a chicago \u203a lo",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=00b4cfb0611752642b8263b00e110cb68a9ba0857653fbe0b56377f4aca38193JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cuZjZzLmNvbS9jb21wYW5pZXMvdW5pdGVkLXN0YXRlcy9pbGxpbm9pcy9jaGljYWdvL2xv&amp;ntb=1"
+              }
+            ],
+            "paa_like": true,
+            "raw_len": 116459
+          }
+        ],
+        "search_positive": 3,
+        "serp_beatable_signals": 0,
+        "pass": true
+      },
+      "phase3": {
+        "pain_signal_hits": 0,
+        "pain_examples": [],
+        "competition_gap": 9,
+        "build_feasibility": 8,
+        "defensibility": 7,
+        "monetization_clarity": 8,
+        "revenue_scenarios": {
+          "bear": 90.0,
+          "base": 800.0,
+          "bull": 5500.0,
+          "assumed_rpm": {
+            "bear": 18,
+            "base": 32,
+            "bull": 55
+          }
+        },
+        "months_to_1k_base": 1.2
+      },
+      "score": {
+        "data_quality": 8,
+        "search_demand": 7,
+        "competition_gap": 9,
+        "monetization_clarity": 8,
+        "build_feasibility": 8,
+        "defensibility": 7,
+        "composite": 7.83
+      },
+      "verdict": "BUILD"
+    },
+    {
+      "name": "NursingHomeGrade",
+      "input": {
+        "name": "NursingHomeGrade",
+        "data_source": {
+          "name": "CMS Nursing Home Care Compare datasets",
+          "url": "https://data.cms.gov/provider-data/dataset/4pq5-n9py",
+          "sample_url": "https://data.cms.gov/provider-data/dataset/4pq5-n9py",
+          "format": "CSV/API",
+          "update_frequency": "monthly",
+          "entity_count": 15000,
+          "licensing": "U.S. government open data"
+        },
+        "query_pattern": "[facility] nursing home rating",
+        "example_queries": [
+          "sunrise nursing home rating",
+          "best nursing homes near me medicare",
+          "nursing home deficiency report [city]",
+          "cms nursing home compare [facility]"
+        ],
+        "intent_type": "Transactional-adjacent informational",
+        "monetization_model": "ads + senior-care lead gen",
+        "primary_vertical": "healthcare transparency",
+        "build_notes": "Join star ratings + deficiencies + staffing; location landing pages and facility detail pages"
+      },
+      "phase2": {
+        "data_status": 200,
+        "data_ok": true,
+        "data_sample": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <base href=\"provider-data/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>PQDC</title>\n    <!-- Tealium Tag Manager - Automatic Pageviews Suppress -->\n    <script type=\"text/javascript\">\n        window.utag_cfg_ovrd = window.utag_cfg_ovrd || {};\n        window.utag_cfg_ovrd.noview = tr",
+        "serp_checks": [
+          {
+            "query": "sunrise nursing home rating",
+            "results": [
+              {
+                "title": "sunrise-sunset.orghttps://sunrise-sunset.org \u203a us \u203a seattle-wa",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=bd05489c52a64db4373be47bf826035b59cf9b9f9173c343e5cd36f6f556cc68JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9zdW5yaXNlLXN1bnNldC5vcmcvdXMvc2VhdHRsZS13YQ&amp;ntb=1"
+              },
+              {
+                "title": "timeanddate.comhttps://www.timeanddate.com \u203a sun \u203a usa \u203a seattle",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=5fd88a12bcd91d25e7cd541c23136d0dc06e1e48da272208e794427f8c8e4f43JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cudGltZWFuZGRhdGUuY29tL3N1bi91c2Evc2VhdHRsZQ&amp;ntb=1"
+              },
+              {
+                "title": "sunrisesunsettime.orghttps://www.sunrisesunsettime.org \u203a north-america \u203a united-states \u203a ...",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=b1a5f35109e262fed03d3c5960c0838834268cd6170aeab7070da4333be011a3JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cuc3VucmlzZXN1bnNldHRpbWUub3JnL25vcnRoLWFtZXJpY2EvdW5pdGVkLXN0YXRlcy9zZWF0dGxlLmh0bQ&amp;ntb=1"
+              },
+              {
+                "title": "sunrisesunset.iohttps://sunrisesunset.io \u203a us \u203a washington \u203a seattle",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=e387338dc232fb41582ecad29dd7d612d0bd6443d0ea2496082ef20ec6782466JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9zdW5yaXNlc3Vuc2V0LmlvL3VzL3dhc2hpbmd0b24vc2VhdHRsZS8&amp;ntb=1"
+              },
+              {
+                "title": "world-weather.infohttps://world-weather.info \u203a forecast \u203a usa \u203a seattle \u203a sunrise",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=ac8eed7fc9d50446e3f8da689b0fa69d713cef59d75d5b41a2e75f7c12b903deJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93b3JsZC13ZWF0aGVyLmluZm8vZm9yZWNhc3QvdXNhL3NlYXR0bGUvc3VucmlzZS8&amp;ntb=1"
+              }
+            ],
+            "paa_like": true,
+            "raw_len": 115777
+          },
+          {
+            "query": "best nursing homes near me medicare",
+            "results": [
+              {
+                "title": "stackexchange.comhttps://ell.stackexchange.com \u203a questions",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=b6802be0ca9198220a6c4fae8882524dd19d23c0ccfb0660d0e6d87266f87301JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9lbGwuc3RhY2tleGNoYW5nZS5jb20vcXVlc3Rpb25zLzI1ODAzMy9tb3N0LWJlc3Qtd2l0aC1vci13aXRob3V0LXRoZQ&amp;ntb=1"
+              },
+              {
+                "title": "stackexchange.comhttps://ell.stackexchange.com \u203a questions",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=9b869a088c640afff24d8d2a05323851af18ef6d4a8d8b3f11c4e122e94cb5d2JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9lbGwuc3RhY2tleGNoYW5nZS5jb20vcXVlc3Rpb25zLzc3NjI5L2l0LWlzLWJlc3QtdnMtaXQtaXMtdGhlLWJlc3Q&amp;ntb=1"
+              },
+              {
+                "title": "stackexchange.comhttps://ell.stackexchange.com \u203a questions \u203a it-was-the-best-",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=7db6578ea0938b5579036dec1f27786effce9eed363e7e1b74d1fedcd65a20adJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9lbGwuc3RhY2tleGNoYW5nZS5jb20vcXVlc3Rpb25zLzMzNjk5NS9pdC13YXMtdGhlLWJlc3QtZXZlci12cy1pdC1pcy10aGUtYmVzdC1ldmVy&amp;ntb=1"
+              },
+              {
+                "title": "stackexchange.comhttps://ell.stackexchange.com \u203a questions \u203a wh",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=59a3263b0585b23fe143cd4bb680cf057cce33dd250aae355b74542c36f28bdbJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9lbGwuc3RhY2tleGNoYW5nZS5jb20vcXVlc3Rpb25zLzMxNTkyNy93aGljaC1vbmUtaXMtdGhlLWJlc3QtdnMtd2hpY2gtb25lLXRoZS1iZXN0LWlz&amp;ntb=1"
+              },
+              {
+                "title": "stackexchange.comhttps://ell.stackexchange.com \u203a questions \u203a about-best-the",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=2c6cff11f37cc4a85d092e3aad84289e60dd3a544abe44b76b0ba08e4c21f8b1JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly9lbGwuc3RhY2tleGNoYW5nZS5jb20vcXVlc3Rpb25zLzEwNjk5My9hYm91dC1iZXN0LXRoZS1iZXN0LWFuZC1tb3N0&amp;ntb=1"
+              }
+            ],
+            "paa_like": true,
+            "raw_len": 117493
+          },
+          {
+            "query": "nursing home deficiency report [city]",
+            "results": [
+              {
+                "title": "who.inthttps://www.who.int \u203a health-topics \u203a nursing",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=7d918048faa9b2fd2218e93d88883e367168e86887714bcd889378efeff4cccfJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cud2hvLmludC9oZWFsdGgtdG9waWNzL251cnNpbmc&amp;ntb=1"
+              },
+              {
+                "title": "who.inthttps://www.who.int \u203a news-room \u203a fact-sheets \u203a detail \u203a nursing-and-midwifery",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=dd28af380228b4301d690a25ec3709fb11ccd0185d99ac42c2ac5d84b81b4b98JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cud2hvLmludC9uZXdzLXJvb20vZmFjdC1zaGVldHMvZGV0YWlsL251cnNpbmctYW5kLW1pZHdpZmVyeQ&amp;ntb=1"
+              },
+              {
+                "title": "who.inthttps://www.who.int \u203a publications \u203a item",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=ab71f0012806bf7c1cc340caf9a43de1c042404131a8e1230fb48bb4a84681a2JmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cud2hvLmludC9wdWJsaWNhdGlvbnMvaS9pdGVtLzk3ODkyNDAxMTAyMzY&amp;ntb=1"
+              },
+              {
+                "title": "who.inthttps://www.who.int \u203a news \u203a item",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=fdbf19eb480ffc0d12125180e0a7b65810ba0b8011e29ebec5bdbff94c91974cJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cud2hvLmludC9uZXdzL2l0ZW0vMTItMDUtMjAyNS1udXJzaW5nLXdvcmtmb3JjZS1ncm93cy0tYnV0LWluZXF1aXRpZXMtdGhyZWF0ZW4tZ2xvYmFsLWhlYWx0aC1nb2Fscw&amp;ntb=1"
+              },
+              {
+                "title": "who.inthttps://www.who.int \u203a europe \u203a news \u203a item",
+                "url": "https://www.bing.com/ck/a?!&amp;&amp;p=9a8821f6090ef89622adaabce966ea5df0b72f4771037da8ef928dc6a1ab7b9aJmltdHM9MTc3NjM4NDAwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2d6da274-1e8c-6d30-2a2a-b54b1fa26cfb&amp;u=a1aHR0cHM6Ly93d3cud2hvLmludC9ldXJvcGUvbmV3cy9pdGVtLzE3LTA2LTIwMjUtY291bnRyaWVzLWFkdmFuY2UtLW51cnNpbmctYWN0aW9uLS1pbml0aWF0aXZlLXRvLXRhY2tsZS1udXJzZS1zaG9ydGFnZXMtYWNyb3NzLXRoZS1ldQ&amp;ntb=1"
+              }
+            ],
+            "paa_like": true,
+            "raw_len": 116781
+          }
+        ],
+        "search_positive": 3,
+        "serp_beatable_signals": 0,
+        "pass": true
+      },
+      "phase3": {
+        "pain_signal_hits": 0,
+        "pain_examples": [],
+        "competition_gap": 9,
+        "build_feasibility": 8,
+        "defensibility": 6,
+        "monetization_clarity": 8,
+        "revenue_scenarios": {
+          "bear": 90.0,
+          "base": 800.0,
+          "bull": 5500.0,
+          "assumed_rpm": {
+            "bear": 18,
+            "base": 32,
+            "bull": 55
+          }
+        },
+        "months_to_1k_base": 1.2
+      },
+      "score": {
+        "data_quality": 8,
+        "search_demand": 7,
+        "competition_gap": 9,
+        "monetization_clarity": 8,
+        "build_feasibility": 8,
+        "defensibility": 6,
+        "composite": 7.67
+      },
+      "verdict": "BUILD"
+    }
+  ]
+}

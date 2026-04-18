@@ -1,0 +1,1356 @@
+[
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] Current Liquor Authority Active Licenses",
+    "description": "Liquor Authority current list of all active licenses, includes Temporary Operating Permits and Additional Bar licenses.",
+    "data_url": "https://data.ny.gov/Economic-Development/Current-Liquor-Authority-Active-Licenses/9s3h-dpkz",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 3,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 3,
+    "score_novelty": 5,
+    "composite_score": 4.0,
+    "is_reserved": false,
+    "notes": "Columns: 23"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Active insurance company appointments for agents and adjusters",
+    "description": "Appointments are formal designations to represent regulated insurance companies. This data set includes a row for each active appointment between an agent or adjuster and an insurance company. To view a list of appointments for agencies and businesses, go to the <a href=\"https://data.texas.gov/dataset/Active-insurance-company-appointments-for-agencies/avjc-7u2m\" target=\"_blank\"><u>Active insurance company appointments for agencies and businesses data set</u></a>. To view a list of non-appointmen",
+    "data_url": "https://data.texas.gov/dataset/Active-insurance-company-appointments-for-agents-a/ft7p-v8a7",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 3,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.5,
+    "is_reserved": false,
+    "notes": "Columns: 9"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Business relationships between agents, agencies, adjusters, and insurance companies",
+    "description": "This data set includes a row for each type of non-appointment relationship between an insurance agent, agency, adjuster, and businesses and an insurance company or another person or business approved to manage insurance-related products or claims. To view a list of formal designations, or appointments, for agents to represent a regulated company, go to <a href=\" https://data.texas.gov/dataset/Active-insurance-company-appointments-for-agents-a/ft7p-v8a7\" target=\"_blank\"><u>Active insurance compan",
+    "data_url": "https://data.texas.gov/dataset/Business-relationships-between-agents-agencies-adj/kvqi-vsrr",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 3,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.5,
+    "is_reserved": false,
+    "notes": "Columns: 9"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Active insurance company appointments for agencies and businesses",
+    "description": "Appointments are formal designations to represent regulated insurance companies. This data set includes a row for each active appointment between an insurance agency and an insurance company. To view a list of appointments for agents and adjusters, go to the <a href=\" https://data.texas.gov/dataset/Active-insurance-company-appointments-for-agents-a/ft7p-v8a7\" target=\"_blank\"><u>Active insurance company appointments for agents and adjusters data set</u></a>. To view a list of non-appointment rela",
+    "data_url": "https://data.texas.gov/dataset/Active-insurance-company-appointments-for-agencies/avjc-7u2m",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 3,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.5,
+    "is_reserved": false,
+    "notes": "Columns: 10"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Network Adequacy Waiver Request - Major Medical",
+    "description": "This dataset includes information related to network adequacy waiver requests filed by major medical health benefit plans. It includes data on physicians, providers, and facilities, other than facility-based physicians and providers. Related datasets are available for major medical (facility-based providers) and vision plans:\n   \n     \u2022\t<strong>Facility-based Physicians & Providers:</strong> <a href=\"https://data.texas.gov/dataset/Network-Adequacy-Waiver-Request-Facility-based-Phy/e597-cvix/abou",
+    "data_url": "https://data.texas.gov/dataset/Network-Adequacy-Waiver-Request-Major-Medical/yfeb-xw4b",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 3,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.5,
+    "is_reserved": false,
+    "notes": "Columns: 18"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] WDFW-Creel Water Bodies",
+    "description": "Records in this dataset reflect water bodies and associated metatdata used in the WDFW creel database. Note this is a growing list as new and existing projects start using the centralized WDFW freshwater creel database.",
+    "data_url": "https://data.wa.gov/Natural-Resources-Environment/WDFW-Creel-Water-Bodies/nbd2-vdmz",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": "Columns: 6"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] WDFW - Creel Fishery Manager",
+    "description": "Records in this dataset indicate fisheries and their assigned sections created in the fishery manager tab of FishApps.",
+    "data_url": "https://data.wa.gov/Natural-Resources-Environment/WDFW-Creel-Fishery-Manager/vkjc-s5u8",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": "Columns: 11"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] WDFW-Creel Fishery Closure",
+    "description": "Records in this dataset indicate dates selected fisheries were closed to fishing.",
+    "data_url": "https://data.wa.gov/Natural-Resources-Environment/WDFW-Creel-Fishery-Closure/6zm6-iep6",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": "Columns: 4"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] geo",
+    "description": "This dataset contains codes which attempts to summarize the issues described in the complaints.",
+    "data_url": "https://data.wa.gov/Consumer-Protection/geo/ubra-dqsi",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": ""
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] Complaints By Practice, Business, and Year",
+    "description": "",
+    "data_url": "https://data.wa.gov/dataset/Complaints-By-Practice-Business-and-Year/u5i2-5q6t",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": "Columns: 4"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] Complaint By Practice",
+    "description": "This dataset contains codes which attempts to summarize the issues described in the complaints.",
+    "data_url": "https://data.wa.gov/Consumer-Protection/Complaint-By-Practice/fvrz-yz45",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": "Columns: 28"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] DMV Vision Registry Providers",
+    "description": "A list of providers within NYS who can administer vision tests to motorists and submit the results online directly to DMV\u2019s system.",
+    "data_url": "https://data.ny.gov/Transportation/DMV-Vision-Registry-Providers/bq25-wnyk",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": "Columns: 9"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] DMV Vision Registry Providers Map",
+    "description": "A list of providers within NYS who can administer vision tests to motorists and submit the results online directly to DMV\u2019s system.",
+    "data_url": "https://data.ny.gov/Transportation/DMV-Vision-Registry-Providers-Map/3t2d-9nix",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": ""
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] DMV Fatal Hearings: 5 Year Window",
+    "description": "A list of fatal crash administrative cases that: are scheduled for a hearing with an Administrative Law Judge (ALJ); have been adjourned; and have been adjudicated. The dataset includes the respondent\u2019s name, case number, ALJ name, hearing date and outcome if any.",
+    "data_url": "https://data.ny.gov/Transportation/DMV-Fatal-Hearings-5-Year-Window/xcnj-3h3u",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": "Columns: 7"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] Current SLA Inactive Licenses",
+    "description": "Liquor Authority Inactive Licenses",
+    "data_url": "https://data.ny.gov/Economic-Development/Current-SLA-Inactive-Licenses/6dg3-2z7i",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": "Columns: 22"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] Current SLA Pending Licenses",
+    "description": "Liquor Authority Pending Licenses",
+    "data_url": "https://data.ny.gov/Economic-Development/Current-SLA-Pending-Licenses/f8i8-k2gm",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": "Columns: 19"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] OCM Medical Cannabis Healthcare Providers Map",
+    "description": "Please note that this list does not include all certifying healthcare providers. The list only includes those providers who have consented to be publicly listed.\n\nPlease click the \u2018Data\u2019 tab to view the list of consenting providers. You can search the data by any field.",
+    "data_url": "https://data.ny.gov/Human-Services/OCM-Medical-Cannabis-Healthcare-Providers-Map/2tth-rpxe",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": ""
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] OCM Medical Cannabis Healthcare Providers",
+    "description": "Please note that this list does not include all certifying healthcare providers. The list only includes those providers who have consented to be publicly listed.\n\nPlease click the \u2018Data\u2019 tab to view the list of consenting providers. You can search the data by any field.",
+    "data_url": "https://data.ny.gov/Human-Services/OCM-Medical-Cannabis-Healthcare-Providers/gegk-4ghy",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": "Columns: 13"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] Current OCM Licenses",
+    "description": "Dataset of all licensees as well as applicants who have obtained proximity protection for their proposed adult-use retail and medical dispensaries.",
+    "data_url": "https://data.ny.gov/Economic-Development/Current-OCM-Licenses/jskf-tt3q",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": "Columns: 44"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Network Adequacy Waiver Request - Facility-based Physicians & Providers",
+    "description": "This dataset includes information related to network adequacy waiver requests filed by major medical health benefit plans. It includes data on facility-based physicians and providers. Related datasets are available for major medical (non-facility-based providers) and vision plans:   \n\n     \u2022\t<strong>Major medical:</strong> <a href=\"https://data.texas.gov/dataset/Network-Adequacy-Waiver-Request-Major-Medical/yfeb-xw4b/about_data\"  target=\"_blank\"><u>Network Adequacy Waiver Request - Major Medical",
+    "data_url": "https://data.texas.gov/dataset/Network-Adequacy-Waiver-Request-Facility-based-Phy/e597-cvix",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": "Columns: 19"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Emergency Services Billing Rates - Code Rates",
+    "description": "The Texas Department of Insurance (TDI) collects and reports information about billing rates for emergency service providers as set by the political subdivisions. This dataset lists the procedure codes and the rates for residents of that political subdivision and for non-residents if that rate differs. There is a row for each procedure code and the rates set by a political subdivision. If a political subdivision reports for a given year (such as 2024) and does not report for a subsequent year, t",
+    "data_url": "https://data.texas.gov/dataset/Emergency-Services-Billing-Rates-Code-Rates/ipyh-z9mx",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 2,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.25,
+    "is_reserved": false,
+    "notes": "Columns: 6"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] WDFW-Creel Analysis Creel Event",
+    "description": "Creel Event",
+    "data_url": "https://data.wa.gov/Natural-Resources-Environment/WDFW-Creel-Analysis-Creel-Event/ui95-axtn",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 11"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] WDFW-Creel Analysis Effort Count",
+    "description": "Fishin Angler Effort Counts",
+    "data_url": "https://data.wa.gov/Natural-Resources-Environment/WDFW-Creel-Analysis-Effort-Count/h9a6-g38s",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 27"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] Contributions to Candidates and Political Committees",
+    "description": "This dataset contains cash and in-kind contributions, (including unpaid loans) made to Washington State Candidates and Political Committees for the last 10 years as reported to the PDC on forms C3, C4, Schedule C and their electronic filing equivalents. It does not include loans which have been paid or forgiven, pledges or any expenditures.\r\n\r\nFor candidates, the number of years is determined by the year of the election, not necessarily the year the contribution was reported. For political commi",
+    "data_url": "https://data.wa.gov/Politics/Contributions-to-Candidates-and-Political-Committe/kv7h-kjye",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 37"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] Campaign Finance Summary",
+    "description": "This data set contains a summary of information about candidate campaigns and political committees by election year. For candidate campaigns and single-year/election committees, a single record is provided that covers all activity of the campaign for the given election year. Information for continuing political committees is summarized by calendar/reporting year. The data set covers that prior 16 years plus the current election year. The data are compiled from the campaign reports deposit (C3), ",
+    "data_url": "https://data.wa.gov/Politics/Campaign-Finance-Summary/3h9x-7bvm",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 77"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] Campaign Finance Reporting History",
+    "description": "This dataset contains a list of all campaign finance reports (C3, C4, C5, C6, and LMC) for the last 10 years including attached schedules. It includes reports that have been superseded by an amendment. \n\nThe primary purpose of this dataset is for data consumers to track report amendments and to examine the reporting history for a filer. Refer to other datasets to get actual values for any of the reports referenced herewith.\n\nFor candidates, the number of years is determined by the year of the el",
+    "data_url": "https://data.wa.gov/Politics/Campaign-Finance-Reporting-History/7qr9-q2c9",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 28"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] Imaged Documents and Reports",
+    "description": "This data set an index to all PDC imaged reports and documents. Political disclosure reports are included for the last 10 years. Other document types are included based on the PDC record retention schedule or 10 years. The number of years is determined by looking at both the election year and date submitted and including documents that meet either criteria (favoring the inclusion of documents). Each record contains a link to view the actual imaged document or a link on how to request the documen",
+    "data_url": "https://data.wa.gov/Politics/Imaged-Documents-and-Reports/j78t-andi",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 17"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] WDFW-Creel Analysis Gear",
+    "description": "Analysis Gear",
+    "data_url": "https://data.wa.gov/Natural-Resources-Environment/WDFW-Creel-Analysis-Gear/d2ks-afhz",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 21"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] WDFW-Creel Analysis Interview",
+    "description": "Analysis Interviews",
+    "data_url": "https://data.wa.gov/Natural-Resources-Environment/WDFW-Creel-Analysis-Interview/rpax-ahqm",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 41"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] WDFW-Spawning Ground Surveys",
+    "description": "A nightly summary of live fish counts, dead fish counts, and redd counts stored in the WDFW Fish Traps and Surveys (FTS) database. \n\n*Disclaimer: This is an evolving dataset and does not contain every survey conducted by WDFW at this time.",
+    "data_url": "https://data.wa.gov/Natural-Resources-Environment/WDFW-Spawning-Ground-Surveys/97am-y7xm",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 59"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] Contributions to Candidates",
+    "description": "This dataset contains cash and in-kind contributions, (including unpaid loans) made to Washington State Candidates and Political Committees for the last 10 years as reported to the PDC on forms C3, C4, Schedule C and their electronic filing equivalents. It does not include loans which have been paid or forgiven, pledges or any expenditures.\r\n\r\nFor candidates, the number of years is determined by the year of the election, not necessarily the year the contribution was reported. For political commi",
+    "data_url": "https://data.wa.gov/Politics/Contributions-to-Candidates/2jwd-akfb",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 35"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] Campaign deposits",
+    "description": "This dataset contains cash and in-kind contributions, (including unpaid loans) made to Washington State Candidates and Political Committees for the last 10 years as reported to the PDC on forms C3, C4, Schedule C and their electronic filing equivalents. It does not include loans which have been paid or forgiven, pledges or any expenditures.\r\n\r\nFor candidates, the number of years is determined by the year of the election, not necessarily the year the contribution was reported. For political commi",
+    "data_url": "https://data.wa.gov/Politics/Campaign-deposits/hhpy-sk2v",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 3"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] WDFW - Creel Summary Counts",
+    "description": "View gives a summary of hours fished and harvest of hatchery and wild Chinook, Steelhead, and Coho.",
+    "data_url": "https://data.wa.gov/Natural-Resources-Environment/WDFW-Creel-Summary-Counts/dpqw-kc2b",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 15"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] WDFW-Creel Analysis Catch",
+    "description": "analysis of catch data",
+    "data_url": "https://data.wa.gov/Natural-Resources-Environment/WDFW-Creel-Analysis-Catch/6y4e-8ftk",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 42"
+  },
+  {
+    "source_scanner": "state_washington",
+    "title": "[Washington] ComplaintCountByPracticeAndBusiness",
+    "description": "",
+    "data_url": "https://data.wa.gov/dataset/ComplaintCountByPracticeAndBusiness/xawg-cey9",
+    "organization": "Washington State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 3"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] NYS Attorney Registrations",
+    "description": "The data included here is the information in the NYS Attorney Registration Database that is deemed public information pursuant to 22 NYCRR 118.",
+    "data_url": "https://data.ny.gov/Transparency/NYS-Attorney-Registrations/eqw2-r5nb",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 20"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] MTA Open Data Catalog",
+    "description": "A list of datasets that MTA currently shares and plans to share on data.ny.gov.",
+    "data_url": "https://data.ny.gov/Transportation/MTA-Open-Data-Catalog/f462-ka72",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 11"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] MTA Subway Stations and Complexes",
+    "description": "A dataset listing all subway and Staten Island Railway stations, with data aggregated by station complex. This dataset includes information on station names, their locations, Station IDs, Complex IDs, GTFS Stop IDs, the services that stop there, the type of structure the station is on or in, whether they are in Manhattan\u2019s Central Business District (CBD), and their ADA-accessibility status.",
+    "data_url": "https://data.ny.gov/Transportation/MTA-Subway-Stations-and-Complexes/5f5g-n3cz",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 16"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] MTA Subway Station Complexes",
+    "description": "A dataset listing all station complexes in the subway system. Station complexes are collections of stations which are interconnected by passageways within fare control or are stations on different levels that are not parallel to each other and that are connected by stairways, escalators, or elevators.",
+    "data_url": "https://data.ny.gov/Transportation/MTA-Subway-Station-Complexes/4ta5-wz5s",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 4"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] MTA Subway Stations",
+    "description": "A dataset listing all subway and Staten Island Railway stations, with information on their locations, Station Master Reference Number (MRN), Complex MRN, GTFS Stop ID, the services that stop there, the type of structure the station is on or in, whether the station is in Manhattan\u2019s Central Business District (CBD), and their ADA-accessibility status.",
+    "data_url": "https://data.ny.gov/Transportation/MTA-Subway-Stations/39hk-dx4f",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 22"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] Child Care Regulated Programs",
+    "description": "Information on OCFS regulated child care programs, which includes program overview information and violation history.",
+    "data_url": "https://data.ny.gov/Human-Services/Child-Care-Regulated-Programs/cb42-qumz",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 36"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] Child Care Regulated Programs Map",
+    "description": "Information on OCFS regulated child care programs, which includes program overview information and violation history.",
+    "data_url": "https://data.ny.gov/Human-Services/Child-Care-Regulated-Programs-Map/s8uq-s4wq",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": ""
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] Child Care Regulated Programs API",
+    "description": "Included in the data set are data elements that will help the public learn about the licensed and registered child care programs in New York State to assist families with choosing child care and to help the media and/or academic institutions with research.",
+    "data_url": "https://data.ny.gov/Human-Services/Child-Care-Regulated-Programs-API/fymg-3wv3",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 29"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] New York State Child Support Warrants: Beginning 7/1/2025",
+    "description": "NYS Child Support warrants and related satisfactions or vacates filed by the NYS Department of Tax and Finance with the NYS Department of State.",
+    "data_url": "https://data.ny.gov/Government-Finance/New-York-State-Child-Support-Warrants-Beginning-7-/8pp4-isha",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 20"
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] New York State Child Support Warrants Map: Beginning 7/1/2025",
+    "description": "NYS Child Support warrants and related satisfactions or vacates filed by the NYS Department of Tax and Finance with the NYS Department of State.",
+    "data_url": "https://data.ny.gov/Government-Finance/New-York-State-Child-Support-Warrants-Map-Beginnin/6n4v-xtjs",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": ""
+  },
+  {
+    "source_scanner": "state_new york",
+    "title": "[New York] Manufactured Housing Program Certified Entities",
+    "description": "List of entities licensed by the Manufactured Housing Program to manufacture, install, or service manufactured housing. Each entry corresponds to a \u201ccertificate holder\u201d as defined in 19 NYCRR 1210.2(h) and recorded in the program\u2019s database of record.",
+    "data_url": "https://data.ny.gov/Government-Finance/Manufactured-Housing-Program-Certified-Entities/q35v-e8qb",
+    "organization": "New York State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 6"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] CapMetro Vehicle Positions PB File",
+    "description": "This dataset was switched to a new source on 3/27/2019.  Their may be some schema differences.\n\nCapital Metro Vehicle positions in Protocol Buffer format updated every 15 seconds.",
+    "data_url": "https://data.texas.gov/Transportation/CapMetro-Vehicle-Positions-PB-File/eiei-9rpf",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": ""
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] CapMetro Vehicle Positions JSON File",
+    "description": "This dataset was switched to a new source on 5/6/2021.  There may be some schema differences.\n\nCapital Metro Vehicle positions in JSON format updated every 15 seconds.",
+    "data_url": "https://data.texas.gov/dataset/CapMetro-Vehicle-Positions-JSON-File/cuc7-ywmd",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": ""
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] CapMetro Trip Updates JSON File",
+    "description": "",
+    "data_url": "https://data.texas.gov/Transportation/CapMetro-Trip-Updates-JSON-File/mqtr-wwpy",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": ""
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] CapMetro Trip Updates PB File",
+    "description": "",
+    "data_url": "https://data.texas.gov/Transportation/CapMetro-Trip-Updates-PB-File/rmk2-acnw",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": ""
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] CapMetro Service Alerts JSON File",
+    "description": "",
+    "data_url": "https://data.texas.gov/dataset/CapMetro-Service-Alerts-JSON-File/9zu9-jwr2",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": ""
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Individual Licensee Information - CE Course Completions",
+    "description": "The Texas Department of Insurance is responsible for monitoring the continuing education (CE) compliance of people licensed to sell insurance or adjust property claims. This data set includes a row for each CE course completed by a licensee.",
+    "data_url": "https://data.texas.gov/dataset/Individual-Licensee-Information-CE-Course-Completi/maym-gea8",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 13"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Credit Law Delinquent List",
+    "description": "Based on the delivery period, the publication date of the delinquent list becomes effective five business days (M-F) subsequent to the due date excluding federal and state holidays, Saturdays and Sundays.\n\n**To avoid unnecessary delays in processing time and to allow retailers adequate time to reconcile delinquencies, please report delinquent accounts by the reporting dates shown.\n\nIf the due date (10th or 25th) or publication date falls on a Saturday, Sunday, or a state or federal holiday, the ",
+    "data_url": "https://data.texas.gov/dataset/Credit-Law-Delinquent-List/ix8u-msb9",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 20"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Collin CAD Open Data",
+    "description": "CCAD TX ODP Homepage",
+    "data_url": "https://data.texas.gov/stories/s/mz7k-urqw",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": ""
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Active Cigarette/Tobacco Retailers",
+    "description": "This file contains information at the outlet level for all Cigarette/tobacco Retailers with an active permit.  The list is for Distributors to know Authorized Retailers for sales and gives information required for reporting.\n\nSee https://comptroller.texas.gov/about/policies/privacy.php for more information on our agency\u2019s privacy and security policies",
+    "data_url": "https://data.texas.gov/dataset/Active-Cigarette-Tobacco-Retailers/n4rp-ar9b",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 14"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Active Cigarette/Tobacco Non-Retailers",
+    "description": "This file contains information for all Cigarette/Tobacco Cigarette and Tobacco Distributors, Manufacturers, Wholesalers, and Importers with an active permit.\r\n\r\nSee https://comptroller.texas.gov/about/policies/privacy.php for more information on our agency\u2019s privacy and security policies",
+    "data_url": "https://data.texas.gov/See-Category-Tile/Active-Cigarette-Tobacco-Non-Retailers/mhvi-79zr",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 10"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] All Cigarette and Tobacco Retailers",
+    "description": "This file contains information at the outlet level for all Cigarette/Tobacco Retailers with an active permit or that have been active within the last four years. The list is for Distributors to know Authorized Retailers for sales and gives information required for reporting.\n\nSee https://comptroller.texas.gov/about/policies/privacy.php for more information on our agency\u2019s privacy and security policies",
+    "data_url": "https://data.texas.gov/dataset/All-Cigarette-and-Tobacco-Retailers/yrkr-maw5",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 16"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Texas Commission on Environmental Quality - Waste Registration and Reporting Submissions",
+    "description": "This dataset lists the incoming documents received by the Texas Commission on Environmental Quality's Registration and Reporting Section in the Office of Waste for the petroleum storage tank and industrial/hazardous waste registration programs. Use this data to determine if the Registration and Reporting Section has received a document that you sent to them and if the section has processed the document.",
+    "data_url": "https://data.texas.gov/dataset/Texas-Commission-on-Environmental-Quality-Waste-Re/p8z2-hirz",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 9"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Lottery and Charitable Bingo Contested Case Orders",
+    "description": "Disciplinary orders of the Lottery & Charitable Bingo Divisions of the Texas Department of Licensing & Regulation, which include former Texas Lottery Commission and related Texas Commission of Licensing and Regulation Orders and the following specific sub types:\n\u2022\tAction on Motion for Rehearing\n\u2022\tAgreed Order \u2013 Civil Penalty\n\u2022\tAgreed Order \u2013 Removal of Officer\n\u2022\tAgreed Order \u2013 Temporary Suspension\n\u2022\tSOAH Order \u2013 Denial PFD\n\u2022\tSOAH Order \u2013 Remand Default\n\u2022\tSOAH Order - Revocation PFD\n\u2022\tSOAH PFD Su",
+    "data_url": "https://data.texas.gov/See-Category-Tile/Lottery-and-Charitable-Bingo-Contested-Case-Orders/inib-aewu",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 8"
+  },
+  {
+    "source_scanner": "state_texas",
+    "title": "[Texas] Texas Commission on Environmental Quality - Monthly Waste Receipt Summary",
+    "description": "Information from the TCEQ monthly waste receipts summary report form submitted by receivers of hazardous and Industrial Class 1 waste. It contains the receiver's registration number, the received date, waste code, quantity received, who shipped the waste and how it was handled.",
+    "data_url": "https://data.texas.gov/dataset/Texas-Commission-on-Environmental-Quality-Monthly-/krzt-9qpq",
+    "organization": "Texas State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 3.0,
+    "is_reserved": false,
+    "notes": "Columns: 18"
+  },
+  {
+    "source_scanner": "federal_register",
+    "title": "[Notice] Notice of Formal Determination on Records Release",
+    "description": "The Civil Rights Cold Case Records Review Board received 4,808 pages of records from the National Archives and Records Administration (NARA) related to three civil rights cold case incidents to which the Review Board assigned the unique identifiers 2024-003-019, 2024-003- 057, and 2024-004-018. NARA proposed 44 postponements including postponements of sealed federal grand jury information in the records. On April 3 and 10, 2026, the Review Board approved 10 postponements and a portion of 1 addit",
+    "data_url": "https://www.federalregister.gov/documents/2026/04/17/2026-07541/notice-of-formal-determination-on-records-release",
+    "organization": "Civil Rights Cold Case Records Review Board",
+    "format_types": [
+      "regulation"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 3,
+    "score_format_accessibility": 2,
+    "score_topical_relevance": 1,
+    "score_novelty": 4,
+    "composite_score": 2.5,
+    "is_reserved": false,
+    "notes": "Signal terms: disclosure, records"
+  },
+  {
+    "source_scanner": "state_illinois",
+    "title": "[Illinois] Open Data | About Data.Illinois.Gov",
+    "description": "",
+    "data_url": "https://data.illinois.gov/stories/s/x8wg-pxtn",
+    "organization": "Illinois State Government",
+    "format_types": [
+      "Socrata/CSV/JSON"
+    ],
+    "last_updated": "2024-12-31",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 5,
+    "score_topical_relevance": 1,
+    "score_novelty": 2,
+    "composite_score": 2.25,
+    "is_reserved": false,
+    "notes": ""
+  },
+  {
+    "source_scanner": "specialty",
+    "title": "[ALIVE] FDA Adverse Events (Drugs)",
+    "description": "API endpoint responding normally.",
+    "data_url": "https://api.fda.gov/drug/event.json?limit=1&sort=receivedate:desc",
+    "organization": "FDA",
+    "format_types": [],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 2,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 2.25,
+    "is_reserved": false,
+    "notes": "Healthy. Check for schema changes or new endpoints separately."
+  },
+  {
+    "source_scanner": "specialty",
+    "title": "[ALIVE] FDA Adverse Events (Devices)",
+    "description": "API endpoint responding normally.",
+    "data_url": "https://api.fda.gov/device/event.json?limit=1&sort=date_received:desc",
+    "organization": "FDA",
+    "format_types": [],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 2,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 2.25,
+    "is_reserved": false,
+    "notes": "Healthy. Check for schema changes or new endpoints separately."
+  },
+  {
+    "source_scanner": "specialty",
+    "title": "[ALIVE] CPSC Recalls",
+    "description": "API endpoint responding normally.",
+    "data_url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-01-01",
+    "organization": "CPSC",
+    "format_types": [],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 2,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 2.25,
+    "is_reserved": false,
+    "notes": "Healthy. Check for schema changes or new endpoints separately."
+  },
+  {
+    "source_scanner": "specialty",
+    "title": "[ALIVE] BLS Public Data",
+    "description": "API endpoint responding normally.",
+    "data_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LNS14000000",
+    "organization": "BLS",
+    "format_types": [],
+    "last_updated": "2026-04-18",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 2,
+    "score_topical_relevance": 1,
+    "score_novelty": 5,
+    "composite_score": 2.25,
+    "is_reserved": false,
+    "notes": "Healthy. Check for schema changes or new endpoints separately."
+  },
+  {
+    "source_scanner": "federal_register",
+    "title": "[Notice] Agency Information Collection Activities; Proposed Collection; Comment Request; Extension",
+    "description": "In accordance with the Paperwork Reduction Act of 1995 (PRA), the Federal Trade Commission (FTC or Commission) is seeking public comment on its proposal to extend for an additional three years the Office of Management and Budget (OMB) clearance for information collection requirements in its Fair Credit Reporting Risk-Based Pricing Regulations (Risk-Based Pricing Rule or Rule), which applies to certain motor vehicle dealers, and its shared enforcement with the Consumer Financial Protection Bureau",
+    "data_url": "https://www.federalregister.gov/documents/2026/04/17/2026-07530/agency-information-collection-activities-proposed-collection-comment-request-extension",
+    "organization": "Federal Trade Commission",
+    "format_types": [
+      "regulation"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 2,
+    "score_topical_relevance": 1,
+    "score_novelty": 4,
+    "composite_score": 2.0,
+    "is_reserved": false,
+    "notes": "Signal terms: reporting, information collection"
+  },
+  {
+    "source_scanner": "federal_register",
+    "title": "[Notice] Agency Information Collection Activities; Proposed Collection; Comment Request; Generic Clearance for Qualitative Data To Support Social and Behavioral Research for Food, Dietary Supplements, Cosmetics, and Animal Food and Feed",
+    "description": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits c",
+    "data_url": "https://www.federalregister.gov/documents/2026/04/17/2026-07501/agency-information-collection-activities-proposed-collection-comment-request-generic-clearance-for",
+    "organization": "Health and Human Services Department, Food and Drug Administration",
+    "format_types": [
+      "regulation"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 2,
+    "score_topical_relevance": 1,
+    "score_novelty": 4,
+    "composite_score": 2.0,
+    "is_reserved": false,
+    "notes": "Signal terms: data, information collection"
+  },
+  {
+    "source_scanner": "federal_register",
+    "title": "[Notice] Proposed Information Collection Activity; Personal Responsibility Education Program (PREP) Performance Measures",
+    "description": "The Office of Planning, Research, and Evaluation (OPRE) and the Family and Youth Services Bureau (FYSB) in the Administration for Children and Families (ACF) request approval for a revision to a currently approved information collection activity as part of the Personal Responsibility Education Program (PREP) Performance Measures project (Office of Management and Budget (OMB) #: 0970-0497; expiration date July 31, 2026). The goal of the project is to collect, analyze, and report on performance me",
+    "data_url": "https://www.federalregister.gov/documents/2026/04/17/2026-07499/proposed-information-collection-activity-personal-responsibility-education-program-prep-performance",
+    "organization": "Health and Human Services Department, Children and Families Administration",
+    "format_types": [
+      "regulation"
+    ],
+    "last_updated": "2026-04-17",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 2,
+    "score_topical_relevance": 1,
+    "score_novelty": 4,
+    "composite_score": 2.0,
+    "is_reserved": false,
+    "notes": "Signal terms: data, reporting, information collection"
+  },
+  {
+    "source_scanner": "specialty",
+    "title": "[DOWN/CHANGED] NHTSA Recalls",
+    "description": "API endpoint returned error or is unreachable: https://api.nhtsa.gov/recalls/recallsByMake?make=toyota",
+    "data_url": "https://api.nhtsa.gov/recalls/recallsByMake?make=toyota",
+    "organization": "NHTSA",
+    "format_types": [],
+    "last_updated": "",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 2,
+    "score_topical_relevance": 1,
+    "score_novelty": 2,
+    "composite_score": 1.5,
+    "is_reserved": true,
+    "notes": "ENDPOINT UNREACHABLE \u2014 may have moved, may be new auth required."
+  },
+  {
+    "source_scanner": "specialty",
+    "title": "[DOWN/CHANGED] EPA ECHO",
+    "description": "API endpoint returned error or is unreachable: https://echo.epa.gov/api/echo_rest_services.metadata?output=JSON",
+    "data_url": "https://echo.epa.gov/api/echo_rest_services.metadata?output=JSON",
+    "organization": "EPA",
+    "format_types": [],
+    "last_updated": "",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 2,
+    "score_topical_relevance": 1,
+    "score_novelty": 2,
+    "composite_score": 1.5,
+    "is_reserved": false,
+    "notes": "ENDPOINT UNREACHABLE \u2014 may have moved, may be new auth required."
+  },
+  {
+    "source_scanner": "specialty",
+    "title": "[DOWN/CHANGED] SEC EDGAR Full-Text Search",
+    "description": "API endpoint returned error or is unreachable: https://efts.sec.gov/LATEST/search-index?q=%22annual+report%22&forms=10-K",
+    "data_url": "https://efts.sec.gov/LATEST/search-index?q=%22annual+report%22&forms=10-K",
+    "organization": "SEC",
+    "format_types": [],
+    "last_updated": "",
+    "entity_count_estimate": null,
+    "score_entity_potential": 1,
+    "score_format_accessibility": 2,
+    "score_topical_relevance": 1,
+    "score_novelty": 2,
+    "composite_score": 1.5,
+    "is_reserved": false,
+    "notes": "ENDPOINT UNREACHABLE \u2014 may have moved, may be new auth required."
+  }
+]
