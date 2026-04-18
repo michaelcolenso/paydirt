@@ -1,0 +1,154 @@
+{
+  "last_updated": "2026-04-18",
+  "products": [
+    {
+      "name": "RecallRadar",
+      "status": "active",
+      "domain": "recallradar.com",
+      "repo": "github.com/michaelcolenso/recallradar",
+      "data_source": {
+        "name": "NHTSA Recalls API",
+        "url": "https://api.nhtsa.gov/recalls",
+        "entity_type": "vehicle recall",
+        "entity_count": 30000,
+        "update_frequency": "daily"
+      },
+      "query_patterns": [
+        "[year] [make] [model] recalls",
+        "[make] [model] recall history",
+        "is my [make] [model] recalled"
+      ],
+      "stack": "Cloudflare Workers, Hono, D1, KV",
+      "monetization": "display ads, affiliate (auto parts)",
+      "monthly_traffic": null,
+      "monthly_revenue": null,
+      "launch_date": null,
+      "notes": "Build spec complete. Pre-launch."
+    },
+    {
+      "name": "FedPurchase",
+      "status": "active",
+      "domain": null,
+      "repo": "github.com/michaelcolenso/fedpurchase",
+      "data_source": {
+        "name": "Federal micro-purchase card data",
+        "url": "https://sam.gov",
+        "entity_type": "micro-purchase transaction",
+        "entity_count": null,
+        "update_frequency": "quarterly",
+        "notes": "FAR micro-purchase threshold changed from $10K to $15K effective Oct 2025"
+      },
+      "query_patterns": [
+        "[agency] micro-purchase spending",
+        "federal purchase card transactions [agency]",
+        "government micro-purchases [category]"
+      ],
+      "stack": "Cloudflare Workers, Hono, D1, KV",
+      "monetization": "display ads, lead gen (gov contractors)",
+      "monthly_traffic": null,
+      "monthly_revenue": null,
+      "launch_date": null,
+      "notes": "Threshold update needed."
+    },
+    {
+      "name": "CollegeROI",
+      "status": "planning",
+      "domain": null,
+      "repo": null,
+      "data_source": {
+        "name": "College Scorecard API",
+        "url": "https://api.data.gov/ed/collegescorecard",
+        "entity_type": "institution \u00d7 major outcome",
+        "entity_count": 200000,
+        "update_frequency": "annual"
+      },
+      "query_patterns": [
+        "[major] salary at [school]",
+        "is [major] worth it at [school]",
+        "[school] [major] earnings after graduation"
+      ],
+      "stack": "Cloudflare Workers, Hono, D1, KV",
+      "monetization": "display ads, affiliate (student loans, test prep)",
+      "monthly_traffic": null,
+      "monthly_revenue": null,
+      "launch_date": null,
+      "notes": "Build spec exists."
+    },
+    {
+      "name": "DeviceIncidentScout",
+      "status": "planning",
+      "domain": null,
+      "repo": null,
+      "data_source": {
+        "name": "openFDA Device Adverse Events API",
+        "url": "https://api.fda.gov/device/event.json",
+        "entity_type": "[device name] adverse event report",
+        "entity_count": 2900000,
+        "update_frequency": "daily"
+      },
+      "query_patterns": [
+        "[device name] adverse event report"
+      ],
+      "stack": "Cloudflare Workers, Hono, D1, KV",
+      "monetization": "display ads + affiliate (home health/safety products) + premium alerts",
+      "monthly_traffic": null,
+      "monthly_revenue": null,
+      "launch_date": null,
+      "notes": "Auto-added from BUILD verdict in discovery pipeline run."
+    },
+    {
+      "name": "OSHAInspectionLookup",
+      "status": "planning",
+      "domain": null,
+      "repo": null,
+      "data_source": {
+        "name": "OSHA Enforcement Data Catalog",
+        "url": "https://enforcedata.dol.gov/views/data_catalogs.php",
+        "entity_type": "[company] OSHA violations",
+        "entity_count": 120000,
+        "update_frequency": "monthly"
+      },
+      "query_patterns": [
+        "[company] OSHA violations"
+      ],
+      "stack": "Cloudflare Workers, Hono, D1, KV",
+      "monetization": "lead gen (workplace safety consultants, OSHA training) + ads",
+      "monthly_traffic": null,
+      "monthly_revenue": null,
+      "launch_date": null,
+      "notes": "Auto-added from BUILD verdict in discovery pipeline run."
+    },
+    {
+      "name": "NursingHomeGrade",
+      "status": "planning",
+      "domain": null,
+      "repo": null,
+      "data_source": {
+        "name": "CMS Nursing Home Care Compare datasets",
+        "url": "https://data.cms.gov/provider-data/dataset/4pq5-n9py",
+        "entity_type": "[facility] nursing home rating",
+        "entity_count": 15000,
+        "update_frequency": "monthly"
+      },
+      "query_patterns": [
+        "[facility] nursing home rating"
+      ],
+      "stack": "Cloudflare Workers, Hono, D1, KV",
+      "monetization": "ads + senior-care lead gen",
+      "monthly_traffic": null,
+      "monthly_revenue": null,
+      "launch_date": null,
+      "notes": "Auto-added from BUILD verdict in discovery pipeline run."
+    }
+  ],
+  "reserved_data_sources": [
+    "NHTSA Recalls API",
+    "Federal micro-purchase card data",
+    "College Scorecard API"
+  ],
+  "reserved_query_spaces": [
+    "vehicle recalls",
+    "federal micro-purchase spending",
+    "college major ROI / earnings by school"
+  ]
+}
